@@ -1,5 +1,4 @@
 from cmath import sqrt
-import math
 
 
 x = int(input("Write parameter A:"))
@@ -11,9 +10,9 @@ print(delta)
 pierwiastekDelta = sqrt(delta)
 
 if delta > 0:
-    print("Delta istnieje")
+    print("Delta exist")
     print(pierwiastekDelta)
 else:
-    print("Delta nieistnieje")
+    print("Delta don't exist")
 
 
